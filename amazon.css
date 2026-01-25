@@ -15,8 +15,9 @@
 
 /* first box*/
 
+
 .logo {
-    background-image: url("final-logo.png");
+    background-image: url("images/final-logo.png");
     height: 50px;
     width: 130px;
     background-size:contain;
@@ -90,10 +91,6 @@
      border:3px solid  rgb(247, 103, 1);
 }
 
-
-
-
-
 .select-option {
     width: 52px;
     height: 40px;
@@ -116,8 +113,6 @@
     color:#dedbd7; 
     font-size: 1rem;
 }
-
-
 
 .search-logo {
     width: 45px;
@@ -147,7 +142,7 @@
 }
 
     .language {
-    background-image: url("flag.png");
+    background-image: url("images/flag.png");
     background-repeat: no-repeat;
     background-size: 21px 21px;
     background-position: left 5px center;
@@ -267,6 +262,18 @@ align-items: center;
 .pannel-other p {
     display: inline;
     margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px;
+}
+
+.pannel-other a {
+    text-decoration: none;
+    color: #e8e6e3;
+}
+
+.pannel-other a :hover {
+    border: 0.01rem solid rgba(141, 137, 137, 0.496);
 }
 
 .pannel-all {
@@ -278,7 +285,7 @@ align-items: center;
 /* Main Section */
 
 .mainsection {
-    background-image: url("mainsection.jpg");
+    background-image: url("images/mainsection.jpg");
     height: 500px;
     background-size: cover;
     
